@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header section starts here */
+.header{
+    background: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 130px;
+}
+.header-content{
+    direction: rtl;
+    position: absolute;
+    /* text-align: right; */
+    top: 220px;
+    left: 800px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* failure section's styles  */
+.failure{
+    display: flex;
+    width: 950px;
+    height: 700px;
+    margin: 0px 280px;
+    gap: 88px;
+}
+.failure-img img{
+    width: 500px;
+    height: 600px;
+}
+.failure-content{
+    margin-top: 200px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.icon-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+.failure-content .fa-check {
+    margin-right: 10px;
+    color: green;
+}
+
+/* My-plan section styles here */
+.my-plan{
+    margin-bottom: 130px;
+    text-align: center;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.web-service{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+}
+.development  img{
+    width: 50px;
+    height: 50px;
+}
+.web-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #151414;
+    margin-bottom: 8px;
+
+}
+.web-description{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: #737272;
+}
+
+/* Positive-mindset-section styles here */
+.positive-mindset{
+    margin-bottom: 130px;
+}
+.mindset{
+    margin: 0px 200px;
+    width: 900px;
+    height: 200px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png) no-repeat;
+    background-size: cover;
+}
+.mindset{
+    padding-top:60px ;
+    padding-left: 65px;
+}
+.mindset-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF; 
+    margin-bottom: 15px;
+}
+
+/* footer styles here */
+.footer{
+    width: 100%;
+    height: 450px;
+    background: #151414;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.future-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #F8F8F8;
+    margin-top: 130px;
+    margin-bottom: 15px;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.future-sub-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+.social{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social  li{
+    list-style: none;
+    padding-right: 20px;
+
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-bottom: 15px;
+}
+.subscribe input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+.subscribe .btn-primary{
+    background-color: rgb(4, 69, 109);
+    color: #fff;
+}
+
